@@ -18,4 +18,4 @@ jobs:
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v4.2.0
       env:
-      	CODECOV_TOKEN: dd037d2d-2e09-4e2d-8aff-288aa253a5c9
+      	CODECOV_TOKEN: "dd037d2d-2e09-4e2d-8aff-288aa253a5c9"
