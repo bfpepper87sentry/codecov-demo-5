@@ -23,4 +23,4 @@ jobs:
       env:
         CODECOV_TOKEN: 'dd037d2d-2e09-4e2d-8aff-288aa253a5c9'
       with:
-        flags: frontend
+        flags: backend
