@@ -13,7 +13,7 @@ flag_management:
           target: auto
           threshold: 1%
         - type: project
-          target: 100%
+          target: auto
           threshold: 1%
     - name: frontend
       paths:
