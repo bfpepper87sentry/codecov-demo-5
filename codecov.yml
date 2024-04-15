@@ -9,6 +9,9 @@ flag_management:
       paths:
         - api/
       statuses:
+        - type: patch
+          target: auto
+          threshold: 1%
         - type: project
           target: 100%
           threshold: 1%
@@ -16,6 +19,9 @@ flag_management:
       paths:
         - web/
       statuses:
+        - type: patch
+          target: auto
+          threshold: 1%
         - type: project
           target: auto
           threshold: 1%

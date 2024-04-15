@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-python@v2
-      with:
+        with:
         python-version: '3.10'
     - name: Install requirements
       run: pip install -r api/requirements.txt
@@ -19,3 +19,5 @@ jobs:
       uses: codecov/codecov-action@v4.2.0
       env:
         CODECOV_TOKEN: 'dd037d2d-2e09-4e2d-8aff-288aa253a5c9'
+      with:
+        flags: backend
